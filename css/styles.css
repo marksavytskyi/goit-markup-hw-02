@@ -1,0 +1,180 @@
+/* Цвета макета */
+:root {
+    --primary-white-color: #ffffff;
+    --title-text-color: #212121;
+    --subtitle-text-color: #757575;
+    --accent-color: #2196F3;
+    --accent-black-color: #000000;
+    --text-address-color: rgba(255, 255, 255, 0.6);
+    --secondary-bg-color: #F5F4FA;
+
+    --header-bg-color: #2F303A;
+
+}
+
+/* Body */
+body {
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+a, .filter button {
+    color: var(--title-text-color);
+}
+
+/* Верхняя линия */
+
+/* Logo */
+.logo {
+    color: var(--accent-black-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+}
+.logo .accent {
+    color: var(--accent-color);
+}
+/* Navigation */
+nav .list a:hover,
+nav .list a:focus {
+color: var(--accent-color);
+}
+nav .list,
+.address-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+}
+
+/* Index page */
+
+/* Шапка */
+.header {
+    background-color: var(--header-bg-color);
+}
+h1 {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.header button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* Main */
+.subtitle {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Особенности */
+.feature .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* Чем мы занимаемся */
+
+
+/* Наша команда */
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.team p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+/* Footer */
+address a {
+    color: var(--text-address-color);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    font-style: normal;
+}
+.street {
+    color: var(--primary-white-color);
+}
+footer {
+    background-color: #2F303A;
+}
+address li {
+    list-style: none;
+}
+
+/* Portfolio page */
+.accent-page {
+    color: var(--accent-color);
+}
+/* button */
+.filter button:hover,
+.filter button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.filter button {
+    background-color: var(--secondary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.filter {
+    list-style: none;
+}
+
+/* Portfolio */
+.portfolio p,
+.address-list a {
+    color: var(--subtitle-text-color);
+}
+
+.portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio {
+    list-style: none;
+}
+
+.portfolio p {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.portfolio a {
+    text-decoration: none;
+}

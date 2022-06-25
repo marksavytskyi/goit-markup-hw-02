@@ -13,6 +13,7 @@
 }
 
 /* Body */
+
 body {
     background-color: var(--primary-white-color);
     font-family: Roboto, sans-serif;
@@ -20,10 +21,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-a, .filter button {
-    color: var(--title-text-color);
+.site-list {
+    list-style: none;
 }
-
 /* Верхняя линия */
 
 /* Logo */
@@ -40,20 +40,28 @@ a, .filter button {
     color: var(--accent-color);
 }
 /* Navigation */
-nav .list a:hover,
-nav .list a:focus {
+.list a:hover,
+.list a:focus {
 color: var(--accent-color);
 }
-nav .list,
-.address-list {
+
+.list a {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
 }
-header a {
-    text-decoration: none;
+.address-list a {
+    color: var(--subtitle-text-color);
+}
+.nav-list .accent-page {
+    background-color: var(--accent-color);
+    color: white;
 }
 
 /* Index page */
@@ -71,7 +79,7 @@ h1 {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.header button {
+.button-order {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     font-weight: 700;
@@ -80,44 +88,60 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
 }
-/* Main */
-.subtitle {
+/* ============================================ */
+.title {
     color: var(--title-text-color);
     font-weight: 700;
+}
+.text {
+    color: var(--subtitle-text-color);
+    font-weight: 400;
+}
+
+/* Особенности */
+.feature-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.subtitle {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
 
-/* Особенности */
-.feature .title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
-/* Чем мы занимаемся */
-
-
 /* Наша команда */
-.team h3 {
+
+.team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
-.team p {
+.team-text {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
+
+
+
+
+
+
 /* Footer */
-address a {
+.address-link {
     color: var(--text-address-color);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    list-style: none;
     font-style: normal;
 }
 .street {
@@ -126,55 +150,37 @@ address a {
 footer {
     background-color: #2F303A;
 }
-address li {
-    list-style: none;
-}
+
+
+
+
 
 /* Portfolio page */
-.accent-page {
-    color: var(--accent-color);
+.portfolio-list {
+    list-style: none;
 }
-/* button */
-.filter button:hover,
-.filter button:focus {
-    background-color: var(--accent-color);
+.filter-list button:hover,
+.filter-list button:focus {
     color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
-
-.filter button {
-    background-color: var(--secondary-bg-color);
+.filter-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-}
-
-.filter {
     list-style: none;
 }
-
-/* Portfolio */
-.portfolio p,
-.address-list a {
-    color: var(--subtitle-text-color);
-}
-
-.portfolio h2 {
+.portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-
-.portfolio {
-    list-style: none;
+.portfolio-link {
+    color: var(--title-text-color);
 }
-
-.portfolio p {
+.portfolio-text {
     font-size: 16px;
-    line-height: 1.87;
-}
-
-.portfolio a {
-    text-decoration: none;
+    line-height: 1.88;
 }

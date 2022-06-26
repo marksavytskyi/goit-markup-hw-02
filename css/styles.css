@@ -59,10 +59,6 @@ color: var(--accent-color);
 .address-list a {
     color: var(--subtitle-text-color);
 }
-.nav-list .accent-page {
-    background-color: var(--accent-color);
-    color: white;
-}
 
 /* Index page */
 
@@ -87,6 +83,7 @@ h1 {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: Roboto;
 }
 /* ============================================ */
 .title {
@@ -150,6 +147,9 @@ h1 {
 footer {
     background-color: #2F303A;
 }
+footer .logo {
+    color: var(--primary-white-color);
+}
 
 
 
@@ -165,6 +165,9 @@ footer {
     background-color: var(--accent-color);
 }
 .filter-list {
+    list-style: none;
+}
+.filter-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -179,8 +182,10 @@ footer {
 }
 .portfolio-link {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 .portfolio-text {
     font-size: 16px;
     line-height: 1.88;
+    color: var(--subtitle-text-color);
 }
